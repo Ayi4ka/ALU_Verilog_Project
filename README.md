@@ -48,7 +48,7 @@ Time |  A  |  B  | OP  | Result | Z | N | C | O
 
   Результат python test_generator.py
 
- A  | B  | OP  | Result | Z | N | C | O
+A  | B  | OP  | Result | Z | N | C | O
 ----------------------------------------
  10 |   5 | 000 |     15 | 0 | 0 | 0 | 0
 
