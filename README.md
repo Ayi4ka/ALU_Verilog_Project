@@ -25,7 +25,8 @@
 - Проверку флагов: zero (`Z`), negative (`N`), carry (`C`), overflow (`O`)
 - Пограничные значения и переполнения
 
-Результат
+Результат iverilog -o alu_sim alu.v alu_tb.v 
+vvp alu_sim
 
 Time |  A  |  B  | OP  | Result | Z | N | C | O 
 
@@ -45,9 +46,8 @@ Time |  A  |  B  | OP  | Result | Z | N | C | O
   
   70ns |  15 |  15 |  7  | 225    | 0 | 1 | 0 | 0
 
-  Результат: 
+  Результат python test_generator.py
 
-  python test_generator.py
  A  | B  | OP  | Result | Z | N | C | O
 ----------------------------------------
  10 |   5 | 000 |     15 | 0 | 0 | 0 | 0
