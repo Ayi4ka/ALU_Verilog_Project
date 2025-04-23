@@ -25,8 +25,6 @@
 - Проверку флагов: zero (`Z`), negative (`N`), carry (`C`), overflow (`O`)
 - Пограничные значения и переполнения
 
-Для визуализации используется **EPWave**:
-
 Time |  A  |  B  | OP  | Result | Z | N | C | O 
 
    0ns | 100 |  55 |  0  | 155    | 0 | 1 | 0 | 1
@@ -44,6 +42,8 @@ Time |  A  |  B  | OP  | Result | Z | N | C | O
   60ns |   3 |   0 |  6  |   1    | 0 | 0 | 1 | 0
   
   70ns |  15 |  15 |  7  | 225    | 0 | 1 | 0 | 0
+
+  Для визуализации используется **EPWave**:
   
 ![image](https://github.com/user-attachments/assets/4dbbb10a-b0ba-4ad0-958f-727c123b6c32)
 
