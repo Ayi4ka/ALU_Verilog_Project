@@ -48,8 +48,4 @@ Time |  A  |  B  | OP  | Result | Z | N | C | O
 ![image](https://github.com/user-attachments/assets/4dbbb10a-b0ba-4ad0-958f-727c123b6c32)
 
 
-## ⚙️ Запуск симуляции
-
-```bash
-iverilog -g2012 -o alu_tb design.sv testbench.sv
-vvp alu_tb
+## ⚙️ Запуск симуляции произведен на сайте https://www.edaplayground.com/
