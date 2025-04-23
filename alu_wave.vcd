@@ -1,0 +1,142 @@
+$date
+	Wed Apr 23 23:16:28 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_tb $end
+$var wire 1 ! zero $end
+$var wire 8 " result [7:0] $end
+$var wire 1 # overflow $end
+$var wire 1 $ negative $end
+$var wire 1 % carry $end
+$var reg 8 & A [7:0] $end
+$var reg 8 ' B [7:0] $end
+$var reg 4 ( op_code [3:0] $end
+$scope module dut $end
+$var wire 8 ) A [7:0] $end
+$var wire 8 * B [7:0] $end
+$var wire 4 + op_code [3:0] $end
+$var reg 8 , A_signed [7:0] $end
+$var reg 8 - B_signed [7:0] $end
+$var reg 1 % carry $end
+$var reg 1 $ negative $end
+$var reg 1 # overflow $end
+$var reg 8 . result [7:0] $end
+$var reg 9 / tmp_result [8:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10011011 /
+b10011011 .
+b110111 -
+b1100100 ,
+b0 +
+b110111 *
+b1100100 )
+b0 (
+b110111 '
+b1100100 &
+0%
+1$
+1#
+b10011011 "
+0!
+$end
+#10000
+1%
+b1100100 -
+b11110 ,
+b110111010 /
+b10111010 "
+b10111010 .
+1$
+0#
+b1 (
+b1 +
+b1100100 '
+b1100100 *
+b11110 &
+b11110 )
+#20000
+b11001100 -
+b10101010 ,
+b0 /
+b10001000 "
+b10001000 .
+1$
+0%
+b10 (
+b10 +
+b11001100 '
+b11001100 *
+b10101010 &
+b10101010 )
+#30000
+b1111 -
+b10100000 ,
+b10101111 "
+b10101111 .
+1$
+b11 (
+b11 +
+b1111 '
+b1111 *
+b10100000 &
+b10100000 )
+#40000
+b11110000 ,
+b11111111 "
+b11111111 .
+1$
+b100 (
+b100 +
+b11110000 &
+b11110000 )
+#50000
+1#
+1%
+b100000010 /
+b0 -
+b10000001 ,
+b10 "
+b10 .
+0$
+b101 (
+b101 +
+b0 '
+b0 *
+b10000001 &
+b10000001 )
+#60000
+b11 ,
+b0 /
+b1 "
+b1 .
+0#
+1%
+b110 (
+b110 +
+b11 &
+b11 )
+#70000
+1$
+b11100001 /
+b1111 -
+b1111 ,
+b11100001 "
+b11100001 .
+0%
+b111 (
+b111 +
+b1111 '
+b1111 *
+b1111 &
+b1111 )
+#80000
